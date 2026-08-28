@@ -1,0 +1,4 @@
+# No third-party dependency is required for core experiments.
+# Optional conveniences:
+matplotlib>=3.6  # figures only
+pytest>=7.0      # developer test suite; selftest.py is stdlib-only

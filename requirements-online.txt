@@ -1,0 +1,11 @@
+# Online research conveniences
+pytest>=7
+matplotlib>=3.6
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+requests>=2.31
+beautifulsoup4>=4.12
+python-chess>=1.999
+open_spiel
+networkx>=3.0

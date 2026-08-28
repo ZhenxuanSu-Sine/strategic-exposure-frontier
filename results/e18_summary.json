@@ -1,0 +1,6 @@
+{
+  "experiment": "E18",
+  "claim": "on-policy expected workload remains 1 while peak capability grows with n",
+  "max_peak": 1024.0,
+  "max_workload_deviation_from_1": 0.0
+}

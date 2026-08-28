@@ -1,0 +1,7 @@
+Codex online research pack
+
+1. Open and read AGENTS.md.
+2. Reproduce baseline: python scripts_run_all.py && python selftest.py
+3. Give START_PROMPT.md to Codex if launching manually.
+4. Mandatory first research deliverable: research/ONLINE_NOVELTY_AUDIT.md
+5. Do not start Stockfish/OpenSpiel sweeps before the novelty gate.
