@@ -1,0 +1,10 @@
+board,player,move,x_search_nodes
+.........,X,0,549946
+X........,O,4,0
+X...O....,X,1,7332
+XX..O....,O,2,0
+XXO.O....,X,6,198
+XXO.O.X..,O,3,0
+XXOOO.X..,X,5,14
+XXOOOXX..,O,7,0
+XXOOOXXO.,X,8,2

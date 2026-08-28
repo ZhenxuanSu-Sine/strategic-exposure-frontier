@@ -1,0 +1,4 @@
+opponent,x_game_value,x_expected_search_nodes
+random,0.9947916666666667,557565.7604166666
+lex_minimax_best_response,0.0,557492.0
+minimax_then_exposure_best_response,0.0,557492.0

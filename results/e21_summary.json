@@ -1,0 +1,24 @@
+{
+  "experiment": "E21",
+  "empty_board_naive_minimax_nodes": 549946,
+  "minimax_value": 0,
+  "rows": [
+    {
+      "opponent": "random",
+      "x_game_value": 0.9947916666666667,
+      "x_expected_search_nodes": 557565.7604166666
+    },
+    {
+      "opponent": "lex_minimax_best_response",
+      "x_game_value": 0.0,
+      "x_expected_search_nodes": 557492.0
+    },
+    {
+      "opponent": "minimax_then_exposure_best_response",
+      "x_game_value": 0.0,
+      "x_expected_search_nodes": 557492.0
+    }
+  ],
+  "payoff_preserved": true,
+  "extra_nodes_for_br_force": 0.0
+}

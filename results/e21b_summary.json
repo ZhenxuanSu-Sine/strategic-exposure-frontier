@@ -1,0 +1,8 @@
+{
+  "experiment": "E21b",
+  "payoff_preserving": true,
+  "reference_best_response_cost": 1.0,
+  "exposure_maximizing_best_response_cost": 16.0,
+  "exposure_gap": 15.0,
+  "interpretation": "existence witness only; intentionally minimal/degenerate, not evidence about natural games"
+}

@@ -1,0 +1,21 @@
+{
+  "experiment": "E20",
+  "theta_summaries": {
+    "0.1": {
+      "full_solver_peak": 21.0,
+      "full_solver_workload": 2.1,
+      "full_solver_reward": 1.0
+    },
+    "0.5": {
+      "full_solver_peak": 21.0,
+      "full_solver_workload": 10.5,
+      "full_solver_reward": 1.0
+    },
+    "1.0": {
+      "full_solver_peak": 21.0,
+      "full_solver_workload": 21.0,
+      "full_solver_reward": 1.0
+    }
+  },
+  "plot_generated": true
+}

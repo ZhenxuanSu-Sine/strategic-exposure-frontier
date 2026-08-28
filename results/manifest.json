@@ -1,0 +1,248 @@
+{
+  "project": "Strategic Exposure Frontier",
+  "generated_by": "scripts_run_all.py",
+  "summaries": [
+    {
+      "experiment": "E18",
+      "claim": "on-policy expected workload remains 1 while peak capability grows with n",
+      "max_peak": 1024.0,
+      "max_workload_deviation_from_1": 0.0
+    },
+    {
+      "experiment": "E19",
+      "max_work_minus_peak_reward_gap": 0.1012875366210938,
+      "gap_budget": 16.8,
+      "work_strategy_at_gap": {
+        "p_hard": 0.8,
+        "queries": 21.0
+      },
+      "peak_strategy_at_gap": {
+        "p_hard": 1.0,
+        "queries": 15.0
+      },
+      "plot_generated": true
+    },
+    {
+      "experiment": "E20",
+      "theta_summaries": {
+        "0.1": {
+          "full_solver_peak": 21.0,
+          "full_solver_workload": 2.1,
+          "full_solver_reward": 1.0
+        },
+        "0.5": {
+          "full_solver_peak": 21.0,
+          "full_solver_workload": 10.5,
+          "full_solver_reward": 1.0
+        },
+        "1.0": {
+          "full_solver_peak": 21.0,
+          "full_solver_workload": 21.0,
+          "full_solver_reward": 1.0
+        }
+      },
+      "plot_generated": true
+    },
+    {
+      "experiment": "E21",
+      "empty_board_naive_minimax_nodes": 549946,
+      "minimax_value": 0,
+      "rows": [
+        {
+          "opponent": "random",
+          "x_game_value": 0.9947916666666667,
+          "x_expected_search_nodes": 557565.7604166666
+        },
+        {
+          "opponent": "lex_minimax_best_response",
+          "x_game_value": 0.0,
+          "x_expected_search_nodes": 557492.0
+        },
+        {
+          "opponent": "minimax_then_exposure_best_response",
+          "x_game_value": 0.0,
+          "x_expected_search_nodes": 557492.0
+        }
+      ],
+      "payoff_preserved": true,
+      "extra_nodes_for_br_force": 0.0
+    },
+    {
+      "experiment": "E21b",
+      "payoff_preserving": true,
+      "reference_best_response_cost": 1.0,
+      "exposure_maximizing_best_response_cost": 16.0,
+      "exposure_gap": 15.0,
+      "interpretation": "existence witness only; intentionally minimal/degenerate, not evidence about natural games"
+    },
+    {
+      "experiment": "E22",
+      "grid_points": 484,
+      "distinct_optimal_strategies": 117,
+      "strategy_examples": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.04,
+          21.0
+        ],
+        [
+          0.05,
+          17.0
+        ],
+        [
+          0.05,
+          19.0
+        ],
+        [
+          0.06,
+          15.0
+        ],
+        [
+          0.09,
+          11.0
+        ],
+        [
+          0.09,
+          21.0
+        ],
+        [
+          0.1,
+          19.0
+        ],
+        [
+          0.11,
+          9.0
+        ],
+        [
+          0.11,
+          17.0
+        ],
+        [
+          0.13,
+          15.0
+        ],
+        [
+          0.14,
+          7.0
+        ],
+        [
+          0.14,
+          21.0
+        ],
+        [
+          0.15,
+          13.0
+        ],
+        [
+          0.15,
+          19.0
+        ],
+        [
+          0.17,
+          17.0
+        ],
+        [
+          0.18,
+          11.0
+        ],
+        [
+          0.19,
+          21.0
+        ],
+        [
+          0.2,
+          5.0
+        ],
+        [
+          0.2,
+          15.0
+        ]
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "results/e18_rare_hard_gap.csv",
+      "bytes": 326,
+      "sha256": "fa66307890a84caa8af2a00f3cf2fda96a3f83c6d4777015516b53458fdc496c"
+    },
+    {
+      "path": "results/e18_summary.json",
+      "bytes": 174,
+      "sha256": "c35c17f558453dbe313bf2b2d33705cbe146bdee498ee15ba038d7bedc4cd6ff"
+    },
+    {
+      "path": "results/e19_route_frontiers.csv",
+      "bytes": 11581,
+      "sha256": "a961f16abadbf86b73b30ccccbc392bbeef52e4b31d24a7739feed56ebf3f9f0"
+    },
+    {
+      "path": "results/e19_route_frontiers.png",
+      "bytes": 61524,
+      "sha256": "1efcb9774e26d91ba8287b094bff629db9b1f2d7d9ee052fc623634461a5ffe9"
+    },
+    {
+      "path": "results/e19_summary.json",
+      "bytes": 273,
+      "sha256": "11ad207763c5ee255238555f73521aca1d49b13d95e84d1ac9ff114906d78b0a"
+    },
+    {
+      "path": "results/e20_opponent_exposure.csv",
+      "bytes": 19538,
+      "sha256": "e5e2fa487f129b4553c694b8f61571469d18049c65b9e2b707f713a890c7f814"
+    },
+    {
+      "path": "results/e20_opponent_exposure.png",
+      "bytes": 61887,
+      "sha256": "78c4795d59cb49d39e829cb20b11bb6ed48ba1238b94124cf7b7e3af5b7afd23"
+    },
+    {
+      "path": "results/e20_summary.json",
+      "bytes": 437,
+      "sha256": "7c0ae7b4e91870633af79562af1a7ecf7e38e1f45a0e4ac5fc81cceb836a5ae4"
+    },
+    {
+      "path": "results/e21_force_trace.csv",
+      "bytes": 198,
+      "sha256": "6069e71d99ed70a5eaec881380416655b312bbfbc05fbdfd0797d59ded63f728"
+    },
+    {
+      "path": "results/e21_lex_trace.csv",
+      "bytes": 198,
+      "sha256": "6069e71d99ed70a5eaec881380416655b312bbfbc05fbdfd0797d59ded63f728"
+    },
+    {
+      "path": "results/e21_summary.json",
+      "bytes": 573,
+      "sha256": "01540852b1d8e1b5ce273deafb50d77d1ee81cc9e1e46ecb2748bcf9b49186a7"
+    },
+    {
+      "path": "results/e21_tictactoe_exposure.csv",
+      "bytes": 182,
+      "sha256": "6ab09c54aac395d4d548c910500068ba3fed23443656a92e988c59ea9bbda3ec"
+    },
+    {
+      "path": "results/e21b_minimal_br_force_witness.csv",
+      "bytes": 94,
+      "sha256": "172192774ba7349af92a179aba3fe53aad724999de8c39c925038e2cbb68abf0"
+    },
+    {
+      "path": "results/e21b_summary.json",
+      "bytes": 282,
+      "sha256": "3d35dddf8946b797c082d94182404aa80a1fd33feb61899864844e01dd74fb54"
+    },
+    {
+      "path": "results/e22_joint_frontier.csv",
+      "bytes": 16420,
+      "sha256": "144dac3dded4ff3bd47d0eb4bc555b0d7ca97b3476da0aed17cd23301fd508cb"
+    },
+    {
+      "path": "results/e22_summary.json",
+      "bytes": 826,
+      "sha256": "b8d6e2b762bbdb804f75c37d2794fe4ef4b5470a940f24826ffec7716526b0a7"
+    }
+  ]
+}
